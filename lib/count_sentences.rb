@@ -18,6 +18,6 @@ class String
     self.split(".","!","?")
   
     self.count
-    
+    binding.pry 
   end
 end
