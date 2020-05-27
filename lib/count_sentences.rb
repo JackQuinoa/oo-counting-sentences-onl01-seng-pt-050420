@@ -15,8 +15,8 @@ class String
   end
 
   def count_sentences
-    self.split(".","!","?")
-    self.count
+    self_string << self.split(".","!","?")
+    self_string.count
     binding.pry 
   end
 end
